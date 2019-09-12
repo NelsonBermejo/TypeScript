@@ -71,21 +71,22 @@ console.log('Hello World');
 }
 */
 //document.write()
-//Interfaces
+//Interfaces1
 interface ITodo {
     title: string;
     text: string;
 }
-
+//Interface2
 function showTodo(todo: {title:string;text:string}) {
     console.log('${todo.title} - ${todo.text}')
 }
 
-let myTodo = {title:}
+let myTodo = {title:'Eat dinner', text: 'Lorem'};
 
-showTodo({
-    title: 'Eat Dinner',
-    text: 'lorem'
-})
+showTodo(myTodo);
+//{
+  //  title:'Eat Dinner',
+    //text:'lorem'
+//})
 
 document.write()
